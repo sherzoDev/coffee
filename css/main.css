@@ -327,4 +327,48 @@ a {
 
 /* Site Hero Finish */
 
+/* Site Products Start */
+
+.products__our-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.products__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-esspresso__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;    
+}
+
+.products-esspresso__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #333D4B;    
+}
+
+@media only screen and (min-width: 490px) {
+    .products__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Site Products Finish */
+
 /* Site Main Finish */
