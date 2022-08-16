@@ -194,6 +194,8 @@ header {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
 .sitenav__item:not(:last-child) {
@@ -201,7 +203,7 @@ header {
 }
 
 .sitenav__link {
-  font-family: 'Fraunces';
+  font-family: 'Barlow';
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
@@ -1324,3 +1326,354 @@ header {
 }
 
 /* Site Footer Finish */
+
+/* Site Home page finish */
+
+/* Site About Page Start */
+
+/* Site Intro Start */
+
+.intro__inner {
+  background-image: url("../images/about-hero-bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 0 24px;
+  padding-top: 111px;
+  padding-bottom: 87px;
+  color: #FEFCF7;
+  text-align: center;
+}
+
+.intro__title {
+  font-family: 'Fraunces';
+  font-size: 28px;
+}
+
+.intro__text {
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media only screen and (min-width: 700px) {
+  .intro__inner {
+    background-image: url("../images/about-hero-bg-img-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 118px 58px;
+    color: #FEFCF7;
+    text-align: left;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+
+  .intro__text {
+    width: 420px;
+    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro__inner {
+    background-image: url("../images/about-hero-bg-img-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 137px 85px;
+    color: #FEFCF7;
+    text-align: left;
+  }
+
+  .intro__title {
+    font-size: 40px;
+  }
+
+  .intro__text {
+    width: 420px;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* Site Intro Finish */
+
+/* Site Commited Start */
+
+.commited__img-box {
+  margin-top: 120px;
+}
+
+.commited__img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.commited__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #333D4B;
+}
+
+.commited__text {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 375px) {
+  .commited__title {
+    font-size: 32px;
+  }
+
+  .commited__text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .commited__intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .commited__img {
+    background-image: url('../images/man-coffee-img-tablet.jpg');
+    width: 281px;
+    height: 450px;
+  }
+
+  .commited__desc {
+    margin-left: 69px;
+    margin-top: 100px;
+  }
+
+  .commited__title {
+    text-align: left;
+  }
+
+  .commited__text {
+    width: 339px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .commited__img {
+    background-image: url('../images/man-coffee-img-tablet.jpg');
+    width: 370px;
+    height: 470px;
+  }
+
+  .commited__text {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .commited__img {
+    background-image: url('../images/man-coffee-img-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 520px;
+  }
+
+  .commited__desc {
+    margin-left: 125px;
+  }
+
+  .commited__text {
+    width: 540px;
+    font-size: 16px;
+  }
+}
+
+/* Site Commited Finish */
+
+/* Site Quality Start */
+
+.quality {
+  margin-top: 198px;
+  position: relative;
+}
+
+.quality__box {
+  background: #2C343E;
+  border-radius: 10px;
+  color: #FEFCF7;
+  padding: 0 24px;
+  padding-bottom: 61px;
+  padding-top: 122px;
+}
+
+.quality__img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality__img {
+  position: absolute;
+  top: -55px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+}
+
+.quality__title {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.quality__text {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 450px) {
+  .quality__img {
+    width: 279px;
+    height: 156px;
+  }
+
+  .quality__title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .quality__box {
+    padding: 0 74px;
+    padding-top: 200px;
+    padding-bottom: 67px;
+  }
+
+  .quality__img {
+    top: -140px;
+    background-image: url("../images/cup-of-coffee-img-tablet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .quality__title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .quality__box {
+    padding: 0 74px;
+    padding-top: 200px;
+    padding-bottom: 67px;
+  }
+
+  .quality__img {
+    top: -140px;
+    background-image: url("../images/cup-of-coffee-img-tablet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 320px;
+    border-radius: 10px;
+  }
+
+  .quality__title {
+    font-size: 32px;
+  }
+
+  .quality__text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .quality__inner {
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quality__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 85px;
+    padding-top: 88px;
+    padding-bottom: 176px;
+  }
+
+  .quality__desc {
+    width: 540px;
+  }
+
+  .quality__img {
+    top: -80px;
+    background-image: url("../images/cup-of-coffee-img-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    margin-left: -340px;
+  }
+
+  .quality__title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .quality__img {
+    top: -80px;
+    background-image: url("../images/cup-of-coffee-img-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    margin-left: -450px;
+  }
+}
+
+/* Site Quality Finish */
+
+/* Site About Page Finish */
