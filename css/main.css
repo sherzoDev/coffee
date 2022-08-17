@@ -1676,4 +1676,126 @@ header {
 
 /* Site Quality Finish */
 
+/* Headquarter Start */
+
+#headquarter {
+  padding-top: 120px;
+}
+
+.headquarter-part__title {
+  margin: 0 0 72px 0;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #83888F;
+}
+
+.headquarter-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headquarter-list__item {
+  max-width: 327px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headquarter-list__item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.headquarter-list__item::before {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 47px auto;
+  background-image: url("../images/icon-uk-country.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+}
+
+.headquarter-list__item:nth-child(2):before {
+  background-image: url("../images/icon-canada-country.svg");
+}
+
+.headquarter-list__item:nth-child(3):before {
+  background-image: url("../images/icon-australia-country.svg");
+}
+
+.headquarter-list__title {
+  margin: 0 0 22px 0;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 36px;
+  color: #333D4B
+}
+
+.headquarter-list__address-link,
+.headquarter-list__tel-link {
+  font-family: 'Barlow';
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (min-width:800px) {
+  #headquarter {
+    padding-top: 144px;
+  }
+
+  .headquarter-part__title {
+    text-align: left;
+  }
+
+  .headquarter-list {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .headquarter-list__item {
+    max-width: 223px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .headquarter-list__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .headquarter-list__item::before {
+    margin: 0 auto 47px 0;
+  }
+
+  .headquarter-list__title {
+    margin: 0 0 22px 0;
+    font-size: 24px;
+  }
+
+  .headquarter-list__address-link,
+  .headquarter-list__tel-link {
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .headquarter-part {
+    margin-left: 95px;
+  }
+
+  .headquarter-list {
+    justify-content: flex-start;
+  }
+
+  .headquarter-list__item {
+    margin-right: 95px;
+  }
+}
+
+/* Headquarter Finish */
+
 /* Site About Page Finish */
