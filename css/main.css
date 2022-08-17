@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Variables */
 
 :root {
@@ -174,8 +181,8 @@ header {
   width: 100%;
   height: calc(100vh - 92px);
   padding-top: 40px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #FEFCF7));
   background: -o-linear-gradient(bottom, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #FEFCF7));
   background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
 }
 
@@ -1417,6 +1424,7 @@ header {
 }
 
 .commited__img {
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -1453,8 +1461,14 @@ header {
 
 @media only screen and (min-width: 768px) {
   .commited__intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -1529,8 +1543,14 @@ header {
 }
 
 .quality__img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -1626,13 +1646,23 @@ header {
 @media only screen and (min-width: 1200px) {
   .quality__inner {
     position: static;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
   .quality__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 0 85px;
     padding-top: 88px;
@@ -1693,8 +1723,15 @@ header {
 }
 
 .headquarter-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1753,7 +1790,12 @@ header {
   }
 
   .headquarter-list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
   }
 
@@ -1788,6 +1830,8 @@ header {
   }
 
   .headquarter-list {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
   }
 
