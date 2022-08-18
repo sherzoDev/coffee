@@ -20,7 +20,5 @@ formBtn.addEventListener("click", ()=>{
 
 closeModalBtn.addEventListener("click", ()=> {
     modal.classList.remove("modal-on")
-    alert(`Thank you for buying, Your purchase has been accepted, we will deliver it immediately
-    `)
 })
 // End of Modal Window
